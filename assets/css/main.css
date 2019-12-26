@@ -76,6 +76,11 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
+		background: url(images/bg.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 
 	*, *:before, *:after {
@@ -226,12 +231,7 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
-
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
+		/* background: #348cb2 url("images/bg.jpg") bottom left; */
 		
 
 		background-repeat: repeat-x;
